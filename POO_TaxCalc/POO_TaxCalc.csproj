@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\POO_TaxCalc.Domain\POO_TaxCalc.Domain.csproj" />
+    <ProjectReference Include="..\POO_TaxCalc.Infrastructure\POO_TaxCalc.Infrastructure.csproj" />
+    <ProjectReference Include="..\POO_TaxCalc.Presentation\POO_TaxCalc.Presentation.csproj" />
+    <ProjectReference Include="..\POO_TaxCalc.Services\POO_TaxCalc.Services.csproj" />
+  </ItemGroup>
+
+</Project>
